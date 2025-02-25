@@ -1,0 +1,135 @@
+/*GENERAL*/
+
+i {
+  margin-left: 0.5rem;
+}
+
+/*HEADER*/
+
+header {
+  grid-template-columns: 1fr;
+  place-items: center center;
+  line-height: 2.3rem;
+}
+
+header ul {
+  flex-direction: row;
+  align-items: space-around;
+  padding-left: 3rem;
+  margin: 1rem 0 1rem 0;
+  gap: 3rem;
+  border-bottom: 1px solid var(--gray-light);
+  border-top: 1px solid var(--gray-light);
+}
+
+header a {
+  display: block;
+  padding: 0.5rem 0;
+}
+header .logo {
+  padding: 1rem;
+}
+
+header ul li {
+  padding: 0.2rem;
+  /*background: var(--gray);*/
+}
+
+header .btn {
+  display: none;
+}
+
+nav {
+  justify-content: center;
+  gap: 2rem;
+  overflow: scroll;
+  margin: 1rem 0 1rem 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  place-self: center;
+}
+
+.ads {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 2.5rem;
+}
+
+.ads input {
+  margin: 1rem;
+}
+
+.ads h4 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.ads form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.ads img {
+  display: none;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.pop-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular {
+  place-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: static;
+  max-width: 100%;
+  max-height: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+.popular ul {
+  margin: 0rem 3rem 0 0;
+  padding: 0;
+  margin-top: 2rem;
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "1 2"
+    "3 4";
+}
+
+.popular ul .one {
+  grid-area: 1;
+}
+
+.popular ul .two {
+  grid-area: 2;
+}
+
+.popular ul .3 {
+  grid-area: 3;
+}
+
+.popular ul .4 {
+  grid-area: 4;
+}
+
+.popular ul li i {
+  display: none;
+}
+
+footer {
+  display: none;
+}

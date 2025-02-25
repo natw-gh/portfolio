@@ -1,0 +1,323 @@
+/*reset*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; /*Si ne fonctionne pas -> mettre dans une balise body */
+}
+
+body {
+  background-color: #eee;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+strong {
+  color: gold;
+  font-weight: 400;
+}
+
+/*vp*/
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  padding: 1rem 2rem;
+  background: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; /*Ne pas oublier | permet aux éléments de d'avoir de l'espace entre mais pas autour*/
+}
+
+.vp-logo {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.vp-logo i {
+  color: gold;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.vp-logo a {
+  font-family: "Long Cang", cursive;
+  font-size: 3rem;
+}
+
+header:hover {
+  z-index: 1;
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+header a {
+  color: white;
+}
+
+header ul {
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+header ul li {
+  padding: 1rem;
+}
+
+header ul li a:hover {
+  color: gold;
+}
+
+.vp {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../pictures/frame.jpg) center center / cover;
+}
+
+.vp-content {
+  color: white;
+  text-align: center;
+  max-width: 800px;
+}
+
+.vp-content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.vp-content p {
+  font-size: 1rem;
+}
+
+/*offer*/
+
+.offer {
+  padding: 10rem 1rem;
+}
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container h2 {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.offer-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.offer-list li {
+  background: #fff;
+  margin: 1rem 1rem;
+  flex: 1;
+}
+
+.offer-elem-img {
+  width: 100%;
+}
+
+.offer-elem-txt {
+  text-align: center;
+  color: #333;
+}
+
+.separator {
+  margin: auto;
+  height: 1px;
+  width: 50px;
+  background: #333;
+  margin-bottom: 1rem;
+}
+
+/*who*/
+
+.who {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.who-img {
+  flex: 1;
+}
+
+.who-img img {
+  width: 100%;
+}
+
+.who-txt {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333;
+  color: #eee;
+}
+
+/*opinion*/
+
+.opinion {
+  padding: 5rem 5rem 5rem 5rem;
+  margin: 0rem 15rem;
+}
+
+.opinion h2 {
+  border-bottom: 0.5px solid #333;
+  padding-bottom: 34px;
+}
+
+.opinion-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+}
+
+.opinion-content {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.opinion-txt {
+  margin: auto;
+  padding: 0rem 2rem;
+}
+
+.opinion-profil {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.opinion-profil p {
+  font-weight: 500;
+}
+
+.opinion-profil img {
+  margin-bottom: 1rem;
+  width: 70px;
+  border-radius: 50px;
+}
+
+.opinion-profil em {
+  color: gray;
+  font-size: small;
+}
+
+/*contact*/
+
+.contact {
+  background: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {
+  padding: 4rem 14rem;
+}
+
+.contact-container h2 {
+  font-weight: 400;
+}
+
+.contact h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background: #333;
+  color: #fff;
+  border: none;
+  border-bottom: 0.5px solid grey;
+  margin-bottom: 2rem;
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  /*padding: 1rem;*/
+  background: #333;
+  border: none;
+  border-bottom: 0.5px solid grey;
+  color: #eee;
+}
+
+.button {
+  margin-top: 2rem;
+  height: 2rem;
+  max-width: 10rem;
+  background: rgb(223, 199, 66);
+  color: #333;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 0px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #222222;
+  border: 1px solid white;
+  color: whitesmoke;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  background: #434343;
+  color: whitesmoke;
+  height: 5rem;
+  border-top: 0.5px solid gray;
+}
+
+footer p {
+  margin: auto;
+}

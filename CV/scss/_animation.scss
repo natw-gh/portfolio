@@ -1,0 +1,31 @@
+@keyframes bounce {
+  0% {
+    transform: rotate(-40deg);
+  }
+  10% {
+    transform: rotate(-35deg);
+  }
+  70% {
+    transform: rotate(20deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes smooth {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    font-size: 1rem;
+  }
+  100% {
+    opacity: 1;
+  }
+}

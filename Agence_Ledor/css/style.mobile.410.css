@@ -1,0 +1,56 @@
+/*vp + header*/
+
+header{
+    flex-direction: column;
+}
+
+header ul{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    flex-flow: column;
+}
+
+.vp-content{
+    padding: 2rem 2rem;
+}
+
+.vp-content h1 {
+    font-size: xx-large;
+}
+
+/*offer*/
+
+.offer-list{
+    flex-flow: column;
+}
+
+/*who*/
+
+.who{
+    flex-flow: column;
+}
+
+
+/*opinion*/
+
+.opinion {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+/*contact*/
+
+.contact-container{
+    padding: 5rem 2.5rem;
+}
+
+.button{
+    margin-left: 60px;
+}
+
+/*footer*/
+
+footer{
+    height: 2.5rem;
+}

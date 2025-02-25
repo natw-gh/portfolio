@@ -1,0 +1,45 @@
+/*vp + header*/
+
+header{
+    flex-direction: column;
+}
+
+.vp-content{
+    padding: 0rem 0.5rem;
+}
+
+/*offer*/
+
+.offer-list{
+    flex-flow: column;
+}
+
+/*who*/
+
+.who{
+    flex-flow: column;
+}
+
+
+/*opinion*/
+
+.opinion {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/*contact*/
+
+.contact-container{
+    padding: 5rem 2.5rem;
+}
+
+.button{
+    margin-left: 87px;
+}
+
+/*footer*/
+
+footer{
+    height: 2.5rem;
+}

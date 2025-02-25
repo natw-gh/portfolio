@@ -1,0 +1,263 @@
+
+/*General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*revoir utilité border box*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.drk-btn{
+    display: inline-block; /*Sans inline-block il ne comprent pas sa position et se retrouve légèrement superposer au texte au dessus de lui*/
+    margin-top: 50px;
+    color: whitesmoke;
+    background-color: #333;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.drk-btn:hover {
+    background-color: whitesmoke;
+    border: 1px solid #333;
+    color: #333;
+
+}
+
+.btn{
+    display: inline-block; /*Sans inline-block il ne comprent pas sa position et se retrouve légèrement superposer au texte au dessus de lui*/
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+
+.btn:hover{
+    color: whitesmoke;
+    background-color: #333;
+}
+
+.container{
+    padding: 100px 0px 100px 0px;
+    max-width: 1000px; /* mieux connaite l'usage de max width*/
+    margin: auto;
+    overflow: auto;
+}
+
+
+
+/*Header*/
+
+header {
+    background-color: #333;
+    overflow: auto;
+    line-height: 1.7em;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+header nav ul li a {
+    color: whitesmoke;
+    padding: 20px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: #444;
+}
+
+header nav h1{
+    float: left;
+    padding: 20px;
+}
+
+header nav h1 a {
+    color: whitesmoke;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;/* revoir usage float*/
+}
+
+header nav ul li {
+    float: left;
+}
+
+.active{
+    background-color: #444;
+}
+
+/*vp*/
+
+.vp{
+    height: 700px;
+    background: url(../image/frame.jpg) center ; /* chercher pourquoi mettre "center center" car sans cela l'image disparai*/
+    background-size: cover;
+    text-align: center;
+}
+
+.vp-content{
+    margin: auto;
+    padding-top: 150px;
+    max-width: 600px;
+    color: whitesmoke;
+}
+
+.vp-content h1 {
+    font-size: 50px;
+}
+
+.vp-content p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+
+section .btn{
+    color: #333;
+}
+
+
+
+/*Second bloc*/
+
+.features{
+    text-align: center;
+}
+
+
+.F1, .F2{
+    padding: 25px;
+}
+
+.F1{
+   /* padding-right: 12px;*/
+    float: left;
+    width: 50%;
+    /*border-right: 2px solid #444;*/
+}
+
+.F2{
+   /* padding-left: 12px;*/
+    float: right;
+    width: 50%;
+}
+
+.person{
+    height: 400px;
+    background: url(../image/perso-1.jpg) center center/cover;
+
+}
+
+.rsrv-container{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+/*Where*/
+
+.where{
+    padding: 180px 0px;
+    overflow: auto;
+    max-height: 100vh;
+}
+
+.where-img{
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.where-text{
+    float: right;
+    width: 50%;
+}
+
+.where-text h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.where-text p {
+    padding-top: 15px;
+}
+
+.metro{
+    font-weight: bold;
+}
+
+.chip {
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    width: 30px;
+    color: white;
+}
+
+.chip-purple{
+    background-color: purple;
+}
+
+.chip-brown{
+    background-color: brown;
+}
+
+/*form*/
+
+.form h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd ;
+}
+
+.form{
+    padding: 180px 0px 100px 0px;
+    min-height: 100vh;
+}
+.form-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-container label{
+    display: block;
+    padding: 5px 0px 5px 0px;
+    font-weight: 600;
+}
+
+.form-container input {
+    display: block;
+    width: 100%;
+}
+
+.form-container textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+
+}
+
+
+
+form button{
+    text-justify: center;
+}
+
+/*Footer*/
+
+footer{
+    color: whitesmoke;
+    margin-top: 30px;
+    background-color: #333;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+

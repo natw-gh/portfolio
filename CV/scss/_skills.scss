@@ -1,0 +1,163 @@
+// Bar skill progretion
+.bar-skill-progress {
+  &-hc {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+  &-s {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 80%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+  &-bs {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 45%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+  &-t {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 70%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+  &-f {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 40%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+
+  &-js {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+  &-php {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 25%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+  &-wp {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+  &-p {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: 30%;
+    background: var(--light);
+    .bar-skill-dott {
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background: var(--dark);
+      left: calc(100% - 5px);
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.tailwind {
+  height: 2.2rem;
+  width: 2.2rem;
+  padding-top: 0.5rem;
+}

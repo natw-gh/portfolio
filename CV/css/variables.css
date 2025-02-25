@@ -1,0 +1,19 @@
+:root {
+  --light: #00c3ff;
+  --primary: #2071e7;
+  --dark: #2980b9;
+  --text: #333;
+  --hint: #999;
+  --background: #fafafa;
+  --border: #ddd;
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../font/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Playfaire;
+  src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+/*# sourceMappingURL=variables.css.map */
